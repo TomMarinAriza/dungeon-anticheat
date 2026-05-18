@@ -7,25 +7,28 @@ public class PlayerHealth : MonoBehaviour
 {   
     public Slider healthBar;
     public int health = 100;
+    public int currentHealth;
 
     void Start()
     {
-        healthBar.value = health;
+        currentHealth = health;
+        healthBar.value = currentHealth;
     }
 
     public void TakeDamage(int damage)
     {
-        health -= damage;
-        healthBar.value = health;
-        if (health <= 0)
+        currentHealth -= damage;
+        healthBar.value = currentHealth;
+        if (currentHealth <= 0)
         {
+            Debug.Log("Player has died.");
             Die();
         }
     }
 
     void Die()
     {
-        // Handle player death (e.g., respawn, game over, etc.)
+        
         Debug.Log("Player has died.");
     }
 

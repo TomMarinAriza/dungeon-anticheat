@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     float Speed = 5f;
 
 
+
     Rigidbody2D rb;
 
     [Header("Animation")]
@@ -28,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
         float moveX = Input.GetAxis("Horizontal");
         
         float moveY = Input.GetAxis("Vertical");
-        Debug.Log("MoveX: " + moveX + " MoveY: " + moveY);
+
 
         rb.velocity = new Vector2(moveX * Speed, moveY * Speed);
         animator.SetFloat("Horizontal", moveX);
