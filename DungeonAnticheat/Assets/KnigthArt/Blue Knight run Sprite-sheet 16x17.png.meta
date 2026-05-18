@@ -97,15 +97,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_0
+      name: Run_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 52
+        y: 51
         width: 16
-        height: 16
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -118,7 +118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_1
+      name: Run_1
       rect:
         serializedVersion: 2
         x: 16
@@ -126,7 +126,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_2
+      name: Run_2
       rect:
         serializedVersion: 2
         x: 32
@@ -147,7 +147,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_3
+      name: Run_3
       rect:
         serializedVersion: 2
         x: 48
@@ -168,7 +168,7 @@ TextureImporter:
         width: 16
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,7 +181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_4
+      name: Run_4
       rect:
         serializedVersion: 2
         x: 64
@@ -189,7 +189,7 @@ TextureImporter:
         width: 16
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,7 +202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_5
+      name: Run_5
       rect:
         serializedVersion: 2
         x: 80
@@ -210,7 +210,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_6
+      name: Run_6
       rect:
         serializedVersion: 2
         x: 96
@@ -231,7 +231,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,15 +244,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_7
+      name: Run_7
       rect:
         serializedVersion: 2
         x: 112
-        y: 52
+        y: 51
         width: 16
-        height: 16
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,7 +265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_8
+      name: RunR_0
       rect:
         serializedVersion: 2
         x: 0
@@ -273,7 +273,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,7 +286,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_9
+      name: RunR_1
       rect:
         serializedVersion: 2
         x: 16
@@ -294,7 +294,7 @@ TextureImporter:
         width: 16
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,7 +307,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_10
+      name: RunR_2
       rect:
         serializedVersion: 2
         x: 32
@@ -315,7 +315,7 @@ TextureImporter:
         width: 16
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -328,7 +328,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_11
+      name: RunR_3
       rect:
         serializedVersion: 2
         x: 48
@@ -336,7 +336,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -349,7 +349,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_12
+      name: RunR_4
       rect:
         serializedVersion: 2
         x: 64
@@ -357,7 +357,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -370,7 +370,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_13
+      name: RunR_5
       rect:
         serializedVersion: 2
         x: 80
@@ -378,7 +378,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -391,7 +391,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_14
+      name: RunR_6
       rect:
         serializedVersion: 2
         x: 96
@@ -399,7 +399,7 @@ TextureImporter:
         width: 16
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -412,15 +412,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_15
+      name: RunR_7
       rect:
         serializedVersion: 2
         x: 112
         y: 34
         width: 16
-        height: 18
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -433,7 +433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_16
+      name: RunT_0
       rect:
         serializedVersion: 2
         x: 0
@@ -441,7 +441,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -454,7 +454,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_17
+      name: RunT_1
       rect:
         serializedVersion: 2
         x: 16
@@ -462,7 +462,7 @@ TextureImporter:
         width: 16
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -475,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_18
+      name: RunT_2
       rect:
         serializedVersion: 2
         x: 32
@@ -483,7 +483,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -496,7 +496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_19
+      name: RunT_3
       rect:
         serializedVersion: 2
         x: 48
@@ -504,7 +504,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -517,7 +517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_20
+      name: RunT_4
       rect:
         serializedVersion: 2
         x: 64
@@ -525,7 +525,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -538,7 +538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_21
+      name: RunT_5
       rect:
         serializedVersion: 2
         x: 81
@@ -546,7 +546,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -559,7 +559,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_22
+      name: RunT_6
       rect:
         serializedVersion: 2
         x: 96
@@ -567,7 +567,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -580,7 +580,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_23
+      name: RunT_7
       rect:
         serializedVersion: 2
         x: 112
@@ -588,7 +588,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -601,7 +601,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_24
+      name: RunL_0
       rect:
         serializedVersion: 2
         x: 0
@@ -609,7 +609,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -622,7 +622,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_25
+      name: RunL_1
       rect:
         serializedVersion: 2
         x: 16
@@ -630,7 +630,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -643,7 +643,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_26
+      name: RunL_2
       rect:
         serializedVersion: 2
         x: 32
@@ -651,7 +651,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -664,7 +664,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_27
+      name: RunL_3
       rect:
         serializedVersion: 2
         x: 48
@@ -672,7 +672,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -685,7 +685,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_28
+      name: RunL_4
       rect:
         serializedVersion: 2
         x: 64
@@ -693,7 +693,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -706,7 +706,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_29
+      name: RunL_5
       rect:
         serializedVersion: 2
         x: 80
@@ -714,7 +714,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -727,7 +727,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_30
+      name: RunL_6
       rect:
         serializedVersion: 2
         x: 96
@@ -735,7 +735,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -748,7 +748,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Knight run Sprite-sheet 16x17_31
+      name: RunL_7
       rect:
         serializedVersion: 2
         x: 112
@@ -756,7 +756,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -779,38 +779,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Blue Knight run Sprite-sheet 16x17_0: -642551786
-      Blue Knight run Sprite-sheet 16x17_1: 1045017525
-      Blue Knight run Sprite-sheet 16x17_10: -1350744477
-      Blue Knight run Sprite-sheet 16x17_11: -198132966
-      Blue Knight run Sprite-sheet 16x17_12: 1978169972
-      Blue Knight run Sprite-sheet 16x17_13: 1285607267
-      Blue Knight run Sprite-sheet 16x17_14: -667788082
-      Blue Knight run Sprite-sheet 16x17_15: -2056323045
-      Blue Knight run Sprite-sheet 16x17_16: -1635931
-      Blue Knight run Sprite-sheet 16x17_17: -1016018684
-      Blue Knight run Sprite-sheet 16x17_18: 1698005741
-      Blue Knight run Sprite-sheet 16x17_19: -373465084
-      Blue Knight run Sprite-sheet 16x17_2: 2010598590
-      Blue Knight run Sprite-sheet 16x17_20: 609762315
-      Blue Knight run Sprite-sheet 16x17_21: 1120647615
-      Blue Knight run Sprite-sheet 16x17_22: -1266867756
-      Blue Knight run Sprite-sheet 16x17_23: 1500520725
-      Blue Knight run Sprite-sheet 16x17_24: 1826161583
-      Blue Knight run Sprite-sheet 16x17_25: 656600790
-      Blue Knight run Sprite-sheet 16x17_26: 1286521989
-      Blue Knight run Sprite-sheet 16x17_27: -350897409
-      Blue Knight run Sprite-sheet 16x17_28: -1493438372
-      Blue Knight run Sprite-sheet 16x17_29: -1196203827
-      Blue Knight run Sprite-sheet 16x17_3: -779421183
-      Blue Knight run Sprite-sheet 16x17_30: 856979124
-      Blue Knight run Sprite-sheet 16x17_31: 1497145667
-      Blue Knight run Sprite-sheet 16x17_4: -2014743968
-      Blue Knight run Sprite-sheet 16x17_5: -661244606
-      Blue Knight run Sprite-sheet 16x17_6: 1646621190
-      Blue Knight run Sprite-sheet 16x17_7: -1114457069
-      Blue Knight run Sprite-sheet 16x17_8: -928824124
-      Blue Knight run Sprite-sheet 16x17_9: -653226586
+      RunL_0: 1826161583
+      RunL_1: 656600790
+      RunL_2: 1286521989
+      RunL_3: -350897409
+      RunL_4: -1493438372
+      RunL_5: -1196203827
+      RunL_6: 856979124
+      RunL_7: 1497145667
+      RunR_0: -928824124
+      RunR_1: -653226586
+      RunR_2: -1350744477
+      RunR_3: -198132966
+      RunR_4: 1978169972
+      RunR_5: 1285607267
+      RunR_6: -667788082
+      RunR_7: -2056323045
+      RunT_0: -1635931
+      RunT_1: -1016018684
+      RunT_2: 1698005741
+      RunT_3: -373465084
+      RunT_4: 609762315
+      RunT_5: 1120647615
+      RunT_6: -1266867756
+      RunT_7: 1500520725
+      Run_0: -642551786
+      Run_1: 1045017525
+      Run_2: 2010598590
+      Run_3: -779421183
+      Run_4: -2014743968
+      Run_5: -661244606
+      Run_6: 1646621190
+      Run_7: -1114457069
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
