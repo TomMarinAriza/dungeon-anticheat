@@ -83,3 +83,8 @@ If you edit `x`, `y`, or `health` without updating `hash`, the integrity check w
 3. Open the `savegame.json` file and change `health`, `x`, or `y`.
 4. Return to Unity and reload the game (SaveSystem loads on Start).
 5. The console will log an anticheat error and the save will be rejected.
+
+
+## Credits
+1. *** Dungeon Gathering - Knight Expansion Set v1.0 Free Version *** by SnowHex
+2. Tomas Marin
