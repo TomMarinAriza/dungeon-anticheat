@@ -24,6 +24,7 @@ public class SaveSystem : MonoBehaviour
         public float  x;
         public float  y;
         public int    health;
+        public string seed;
         public string hash;      // ← el anticheat vive aquí
         public string savedAt;
     }
@@ -36,11 +37,12 @@ public class SaveSystem : MonoBehaviour
             x       = player.position.x,
             y       = player.position.y,
             health  = playerHealth.currentHealth,
+            seed    = SessionSeed,
             savedAt = System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
         };
 
         // El hash se calcula DESPUÉS de asignar los valores
-        data.hash = ComputeHash(data.health, data.x, data.y);
+        data.hash = ComputeHash(data.health, data.x, data.y,data.seed);
 
         string json = JsonUtility.ToJson(data, prettyPrint: true);
         File.WriteAllText(SavePath, json);
@@ -62,7 +64,7 @@ public class SaveSystem : MonoBehaviour
         SaveData data = JsonUtility.FromJson<SaveData>(json);
 
         // ── VERIFICACIÓN DE INTEGRIDAD ─────────────────────────────────────
-        string expectedHash = ComputeHash(data.health, data.x, data.y);
+        string expectedHash = ComputeHash(data.health, data.x, data.y, data.seed);
 
         if (data.hash != expectedHash)
         {
@@ -84,10 +86,9 @@ public class SaveSystem : MonoBehaviour
     }
 
     // ── HASH SHA-256 ──────────────────────────────────────────────────────────
-    private string ComputeHash(int health, float x, float y)
+    private string ComputeHash(int health, float x, float y, string seed)
     {
-        // Combina los valores críticos + seed de sesión
-        string raw = $"{health}:{x}:{y}:{SessionSeed}";
+        string raw = $"{health}:{x}:{y}:{seed}";
         using var sha   = SHA256.Create();
         byte[]    bytes = sha.ComputeHash(Encoding.UTF8.GetBytes(raw));
         return System.Convert.ToBase64String(bytes);
