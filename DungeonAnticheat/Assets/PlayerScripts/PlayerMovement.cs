@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement stats")]
-    float Speed = 5f;
+    public float Speed = 5f;
 
 
 

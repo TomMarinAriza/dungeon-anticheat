@@ -26,6 +26,16 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    public void Heal(int healAmount)
+    {
+        currentHealth += healAmount;
+        if (currentHealth > health)
+        {
+            currentHealth = health;
+        }
+        healthBar.value = currentHealth;
+    }
+
     void Die()
     {
         
