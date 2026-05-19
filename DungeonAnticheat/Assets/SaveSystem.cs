@@ -99,4 +99,9 @@ public class SaveSystem : MonoBehaviour
     {
         Application.OpenURL("file://" + Application.persistentDataPath);
     }
+
+    private void Start()
+    {
+    Debug.Log($"[SAVE] Archivo en: {SavePath}");
+    }
 }
