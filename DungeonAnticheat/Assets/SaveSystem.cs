@@ -102,6 +102,7 @@ public class SaveSystem : MonoBehaviour
 
     private void Start()
     {
-    Debug.Log($"[SAVE] Archivo en: {SavePath}");
+        LoadGame(); // Intenta cargar al iniciar el juego
+        Debug.Log($"[SAVE] Archivo en: {SavePath}");
     }
 }

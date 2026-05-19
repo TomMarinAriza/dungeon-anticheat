@@ -5,7 +5,10 @@ using UnityEngine;
 public class PauseBehaviour : MonoBehaviour
 {
     [Header("Panel del menú de pausa")]
-    [SerializeField] GameObject pausePanel;
+    [SerializeField] private GameObject pausePanel;
+
+    [Header("Referencias")]
+    [SerializeField] private SaveSystem saveSystem; // ← asígnalo en el Inspector
 
     private bool _isPaused = false;
 
@@ -14,41 +17,46 @@ public class PauseBehaviour : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (_isPaused) Resume();
-            else Pause();
+            else           Pause();
         }
     }
 
-    // ── Pausar ────────────────────────────────────────────────────────────────
     public void Pause()
     {
         pausePanel.SetActive(true);
-        Time.timeScale = 0f;   // congela el juego
+        Time.timeScale = 0f;
         _isPaused = true;
-        Debug.Log("[PAUSE] Juego pausado.");
     }
 
-    // ── Reanudar ──────────────────────────────────────────────────────────────
     public void Resume()
     {
         pausePanel.SetActive(false);
-        Time.timeScale = 1f;   // reactiva el juego
+        Time.timeScale = 1f;
         _isPaused = false;
-        Debug.Log("[PAUSE] Juego reanudado.");
     }
 
-    // ── Guardar ───────────────────────────────────────────────────────────────
     public void Save()
     {
-        // Llama al SaveSystem que ya tienes
-        FindObjectOfType<SaveSystem>().SaveGame();
-        Debug.Log("[PAUSE] Partida guardada desde el menú.");
+        // Verifica que la referencia existe antes de llamarla
+        if (saveSystem == null)
+        {
+            Debug.LogError("[PAUSE] SaveSystem no asignado en el Inspector.");
+            return;
+        }
+
+        saveSystem.SaveGame();
+        Debug.Log("[PAUSE] Partida guardada.");
     }
 
-    // ── Salir ─────────────────────────────────────────────────────────────────
     public void QuitGame()
     {
-        Time.timeScale = 1f;   // restaura antes de salir
+        Time.timeScale = 1f;
         Application.Quit();
-        Debug.Log("[PAUSE] Saliendo del juego.");  // solo visible en el editor
+    }
+
+
+    void Start()
+    {
+        pausePanel.SetActive(false);
     }
 }
